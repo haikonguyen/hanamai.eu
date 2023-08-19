@@ -13,7 +13,6 @@ interface ProductCardProps {
   title: string;
 }
 export const ProductCard = ({
-  description,
   imageUrl,
   title,
 }: ProductCardProps) => {

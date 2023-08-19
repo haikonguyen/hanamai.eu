@@ -5,7 +5,7 @@ const HeroWrapper = styled('div')<{ isHomePage: boolean }>`
 
   section {
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem 0; 
   }
 `;
 

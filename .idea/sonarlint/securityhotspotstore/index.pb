@@ -167,8 +167,6 @@ H
 components/hero/index.ts,d/8/d8c38f51c243730c01d8a0378d3a6668812f1f90
 H
 components/hero/types.ts,b/6/b6912dc793842ea6f3e59cfa845984d6d59c70b2
-I
-components/hero/styles.ts,3/5/3577a1e9b46657c95c7e4fa1c0d976d5636ce812
 H
 components/hero/hero.tsx,5/3/531c81b557c1500c80a7800b926e9ea1e76020c3
 =

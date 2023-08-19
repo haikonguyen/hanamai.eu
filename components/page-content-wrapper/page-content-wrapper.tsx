@@ -12,7 +12,7 @@ const StyledContainer = styled('div')`
   }
 `;
 
-const PageContentWrapper = ({ children, isPost }: PageContentWrapperProps) => {
+const PageContentWrapper = ({ children }: PageContentWrapperProps) => {
   return (
     <StyledContainer className="my-10 px-5 mx-auto">{children}</StyledContainer>
   );
