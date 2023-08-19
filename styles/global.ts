@@ -28,11 +28,11 @@ const useGlobalStyle = () => {
       flex-direction: column;
       height: 100%;
     }
-    
+
     h1 {
       font-size: 1.5rem;
       font-weight: bold;
-      
+
       @media (min-width: 768px) {
         font-size: 2.25rem;
       }
@@ -41,7 +41,6 @@ const useGlobalStyle = () => {
         font-size: 2.25rem;
       }
     }
-    
 
     a:-webkit-any-link {
       text-decoration: none;

@@ -66,16 +66,16 @@ const Index = ({ blogPostList }: BlogPostListType) => {
             </Grid>
             <Grid item xs={12} md={6}>
               <p className="pt-0">
-                Hello there! I'm delighted to introduce myself as a versatile
+                Hello there! I&apos;m delighted to introduce myself as an
                 artist, specializing in Permanent Makeup (PMU), nail artistry,
                 and lash artistry. My passion for these crafts is more tha n
-                just a profession - it's a way of life. I pour my heart and soul
-                into every meticulous stroke, whether it's creating the perfect
-                arch in an eyebrow, crafting an intricate nail design, or
-                intensifying the allure of the eyes with expertly applied
-                lashes. As a hardworking perfectionist, I believe in the power
-                of attention to detail and precision, ensuring that each client
-                leaves my chair feeling beautiful, confident, and utterly
+                just a profession - it&apos;s a way of life. I pour my heart and
+                soul into every meticulous stroke, whether it&apos;s creating
+                the perfect arch in an eyebrow, crafting an intricate nail
+                design, or intensifying the allure of the eyes with expertly
+                applied lashes. As a hardworking perfectionist, I believe in the
+                power of attention to detail and precision, ensuring that each
+                client leaves my chair feeling beautiful, confident, and utterly
                 transformed. My enthusiasm for my work fuels my endless pursuit
                 of perfection, and I am committed to bringing beauty to life,
                 one brushstroke at a time. I look forward to helping you enhance
