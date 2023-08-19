@@ -12,10 +12,7 @@ interface ProductCardProps {
   imageUrl: string | StaticImageData;
   title: string;
 }
-export const ProductCard = ({
-  imageUrl,
-  title,
-}: ProductCardProps) => {
+export const ProductCard = ({ imageUrl, title }: ProductCardProps) => {
   return (
     <Card>
       <CardMedia sx={{ height: 140 }} image={imageUrl} title={title} />
