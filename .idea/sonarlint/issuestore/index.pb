@@ -1,6 +1,4 @@
 
-A
-package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
 >
 .eslintrc.json,7/1/71c20a341bfe32aa5cd5b4384e94f942bab6a7d3
 @
@@ -121,8 +119,6 @@ J
 enums/index.ts,5/0/5071f4203c81519d94175cbf22dc125a6f921054
 =
 next-env.d.ts,7/9/7948598afd6f2aa542f1b55d7b6f077a70937e77
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 C
 pages/_document.tsx,a/d/ada43e48670fd1ae7318859ac38479e031ea9236
 F
@@ -177,3 +173,41 @@ L
 utils/seo/next-seo.config.ts,a/c/ac5bfb5e0a36e06a9dc70b9f831555198fac9d1c
 H
 utils/text-formatting.ts,d/4/d496934449d0589c9eb7edcf86ca12ab7caf36d8
+?
+pages/about.tsx,0/b/0b64616b59b7b88ec148631fa1b58a577d13b005
+>
+state/types.ts,6/7/677feb29a99c8e5a91aafad073e821cef097cbce
+J
+components/drawer/types.ts,5/c/5c4b0805a7806e9105fc9e07726d8dd0260948e1
+L
+state/slices/mainNavSlice.ts,c/e/ce1e1ef304b00e278726850bec548c8c09f35a8f
+>
+pages/_app.tsx,5/5/550528cc072fa7d76d123e2f4303d4ab39daa8e8
+E
+types/global-types.ts,f/2/f2dc2409a8beef720589ab1fa034725e636d9785
+R
+"components/post-card/post-card.tsx,1/2/12a91ef6f656d946260c0f9f294d223ab244437b
+M
+components/post-list/index.ts,7/8/78c2e086dcec5bd04a45c72fadbcdd3ca318e778
+;
+.babelrc.js,3/7/37f752e35541e9b3c3cf11adb2f8199c3bde9d4a
+R
+"components/ListOfProducts/index.ts,3/3/33a79f60396da03b1315d09531534bb39f65311d
+U
+%components/ListOfProducts/products.ts,9/0/90b845d7705a8b1a7fafc7031c58cd2022c3445b
+O
+components/ProductCard/index.ts,0/9/09c8e7f79b4a0833312111a743313471e5a1373d
+C
+components/index.ts,0/5/05dbfbf07fc5a6a9b19ce700edff227ea53054e0
+R
+"components/post-list/post-list.tsx,0/f/0fa40c1061addbb2c525d9b3f24ebbd3070e8678
+C
+constants/global.ts,2/1/213e075819af0f3cdab05c66d1a576504a257f20
+>
+next.config.js,8/1/811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
+O
+public/favicon/site.webmanifest,1/f/1f42ae752ea40c8ce1a03df2e5802fbcb58f4d42
+J
+.idea/jsLinters/eslint.xml,e/b/eb1f02ca8ef3d0da59c956a13898780dee950d48
+\
+,.idea/inspectionProfiles/Project_Default.xml,4/9/496a238a6afa168dbaf6efd37bb459331589579c
