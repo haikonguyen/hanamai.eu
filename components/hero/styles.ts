@@ -1,4 +1,4 @@
-import {styled} from "@mui/material";
+import { styled } from '@mui/material';
 
 const HeroWrapper = styled('div')<{ isHomePage: boolean }>`
   height: ${({ isHomePage }) => (isHomePage ? '70vh' : '40vh')};

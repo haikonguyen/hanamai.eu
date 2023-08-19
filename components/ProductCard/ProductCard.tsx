@@ -5,11 +5,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { StaticImageData } from 'next/image';
 
 interface ProductCardProps {
   description: string;
-  imageUrl: string | StaticImageData;
+  imageUrl: string | undefined;
   title: string;
 }
 export const ProductCard = ({ imageUrl, title }: ProductCardProps) => {
