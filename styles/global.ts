@@ -1,6 +1,6 @@
 import { css } from '@emotion/react';
-import { useTheme } from '@mui/styles';
 import { CustomTheme } from '@mui/material/styles';
+import { useTheme } from '@mui/system';
 
 const useGlobalStyle = () => {
   const theme: CustomTheme = useTheme();
