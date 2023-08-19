@@ -1,16 +1,22 @@
 import Head from 'next/head';
 import React from 'react';
-import { Divider } from '@mui/material';
-import aboutProfileImg from '@images/aboutProfileImg.png';
+import { Divider, Grid } from '@mui/material';
+import aboutProfileImg from '@images/aboutProfileImg.jpeg';
 import Image from 'next/image';
 import Button from '@mui/material/Button';
 import { useRouter } from 'next/router';
 import { getDatabase } from '@utils/notion';
 import { BlogPostListType } from 'notion';
-import { Hero, PageContentWrapper, PostList, GlassWrapper } from '@components';
+import {
+  Hero,
+  PageContentWrapper,
+  PostList,
+  GlassWrapper,
+  ListOfProducts,
+} from '@components';
 import { siteConfig } from '../constants';
-import heroProfileImg from '@images/heroProfileImg.png';
-import heroBg from '@images/heroBg.jpg';
+import heroBg from '@images/heroBg1.jpg';
+import Box from '@mui/material/Box';
 
 const Index = ({ blogPostList }: BlogPostListType) => {
   const router = useRouter();
@@ -25,7 +31,7 @@ const Index = ({ blogPostList }: BlogPostListType) => {
         <GlassWrapper>
           <section>
             <Image
-              src={heroProfileImg}
+              src={aboutProfileImg}
               width={150}
               height={150}
               alt="Hero image"
@@ -34,8 +40,8 @@ const Index = ({ blogPostList }: BlogPostListType) => {
             />
           </section>
           <section>
-            <h1>Haiko Nguyen</h1>
-            <p>DEVELOPER, PHOTOGRAPHER, VLOGGER</p>
+            <h1>{siteConfig.author.name}</h1>
+            <p>{siteConfig.author.summary}</p>
           </section>
           <section>
             <Button variant="contained" onClick={() => router.push('/contact')}>
@@ -49,35 +55,57 @@ const Index = ({ blogPostList }: BlogPostListType) => {
         <section>
           <h1 className="uppercase text-center">About</h1>
           <hr className="border-blue-500 max-w-[15%] mx-auto" />
-          <div className="flex flex-wrap flex-col md:flex-row">
-            <div className="sm:basis-6/12 md:basis-4/12 md:mr-6">
+          <Grid className="container mx-auto" container spacing={2}>
+            <Grid item xs={12} md={6}>
               <Image
                 src={aboutProfileImg}
                 alt="Hero image"
                 placeholder="blur"
                 className="rounded-2xl"
               />
-            </div>
-            <div className="sm:basis-6/12 md:basis-7/12">
+            </Grid>
+            <Grid item xs={12} md={6}>
               <p className="pt-0">
-                Hello dear friend! Welcome to my personal blog. On this site you
-                you can find my latest post primarily about things that are
-                dearest to my heart. The main topics are usually tech related,
-                such as DEVELOPMENT (mostly Web, because I am a web-developer),
-                PHOTOGRAPHY, TRAVEL, VLOGS, GAMING and my personal stories. As I
-                am self-taught developer and photographer, I would like to share
-                throughout my writings my personal experience, and maybe inspire
-                more people to learn in our SUPER FAST PACE WORLD :-). If you
-                want to find out more about my story, be sure to click on the
-                button below.
+                Hello there! I'm delighted to introduce myself as a versatile
+                artist, specializing in Permanent Makeup (PMU), nail artistry,
+                and lash artistry. My passion for these crafts is more tha n
+                just a profession - it's a way of life. I pour my heart and soul
+                into every meticulous stroke, whether it's creating the perfect
+                arch in an eyebrow, crafting an intricate nail design, or
+                intensifying the allure of the eyes with expertly applied
+                lashes. As a hardworking perfectionist, I believe in the power
+                of attention to detail and precision, ensuring that each client
+                leaves my chair feeling beautiful, confident, and utterly
+                transformed. My enthusiasm for my work fuels my endless pursuit
+                of perfection, and I am committed to bringing beauty to life,
+                one brushstroke at a time. I look forward to helping you enhance
+                your natural beauty with my artistic skills.
               </p>
               <Button variant="outlined" onClick={() => router.push('/about')}>
                 Read my story
               </Button>
-            </div>
-          </div>
+            </Grid>
+          </Grid>
         </section>
+
         <Divider />
+
+        {/* Blog Section */}
+        <section>
+          <h1 className="uppercase text-center">Services</h1>
+          <hr className="border-blue-500 max-w-[15%] mx-auto" />
+          <Box
+            className="container mx-auto"
+            display="grid"
+            gridTemplateColumns="repeat(3, 1fr)"
+            gap={2}
+          >
+            <ListOfProducts />
+          </Box>
+        </section>
+
+        <Divider />
+
         {/* Blog Section */}
         <section>
           <h1 className="uppercase text-center">Latest Posts</h1>

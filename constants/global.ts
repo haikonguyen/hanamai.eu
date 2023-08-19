@@ -3,8 +3,8 @@ const footerYear = d.getFullYear();
 
 export const siteConfig = {
   author: {
-    name: 'Haiko Nguyen',
-    summary: 'Developer, Photographer, Vlogger',
+    name: 'Hana Mai',
+    summary: 'PMU artist, nail artist, lash artist',
   },
   copyright: `© Haiko Nguyen ${footerYear}`,
   description: 'A personal blog made by Haiko Nguyen with ❤️',

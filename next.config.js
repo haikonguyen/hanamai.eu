@@ -1,4 +1,7 @@
 module.exports = {
+  experimental: {
+    forceSwcTransforms: true,
+  },
   images: {
     domains: [
       'images.unsplash.com',
